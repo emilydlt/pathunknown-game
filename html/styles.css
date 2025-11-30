@@ -1,0 +1,321 @@
+* {
+    padding-right: px;
+
+}
+
+
+#background-music {
+    background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*K5eHgrQfEcXuV5hPDLoKNg.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+
+    h1 {
+        color: white;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    #play-icon {
+        background-color: rgb(223, 204, 179);
+        border: 4;
+        border-color: rgb(223, 204, 179);
+        border-radius: 7px;
+        color: rgb(6, 3, 9);
+        padding: 8px 15px;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+        display: inline-block;
+        font-size: 27px;
+        cursor: pointer;
+    }
+
+    #albums>img {
+        width: 30%;
+        padding: 4px;
+        margin: auto;
+        align-items: center;
+        margin-left: 8px
+    }
+
+    .slide {
+        min-height: 100vh;
+        /* Use min-height instead of height */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        scroll-snap-align: start;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+}
+
+#personal-site {
+    background-image: url('https://i.pinimg.com/736x/ef/78/ab/ef78abffcfddeb6d6300b25cfc349bbe.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+
+    a:link {
+        color: #0b0ba4;
+    }
+
+    a:visited {
+        color: #622c8b;
+    }
+
+    h1,
+    h2 {
+        color: rgb(0, 0, 0);
+        text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    }
+
+    footer {
+        color: white;
+        font-weight: bolder;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    }
+
+}
+
+#thoughts {
+    background-image: url('https://i.pinimg.com/736x/37/b0/7d/37b07d784795fe9aa67b417eb264cfa9.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+
+    h1 {
+        color: rgb(255, 32, 207);
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+
+    }
+
+    h2 {
+        color: rgb(255, 32, 207);
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    }
+
+    h4 {
+        color: rgb(255, 32, 207);
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    }
+
+    .slide {
+        min-height: 100vh;
+        /* Use min-height instead of height */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        scroll-snap-align: start;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    #friends>img {
+
+        height: 10em;
+        padding: 4px;
+        margin: auto;
+        align-items: center;
+        margin-left: 8px
+    }
+
+    #food>img {
+        height: 10em;
+        padding: 4px;
+        margin: auto;
+        align-items: center;
+        margin-left: 8px
+    }
+
+    #fandoms>img {
+        height: 10em;
+        padding: 4px;
+        margin: auto;
+        align-items: center;
+        margin-left: 8px
+    }
+
+}
+
+#my-work {
+    background-image: url('https://i.pinimg.com/1200x/ec/d0/52/ecd0521bc08122dc468cced4cab47830.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+
+    h1 {
+        color: white;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    h4 {
+        color: white
+    }
+
+    .slide {
+        min-height: 100vh;
+        /* Use min-height instead of height */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        scroll-snap-align: start;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+}
+
+#home-button {
+    background-color: rgb(255, 255, 255);
+    border: 4;
+    border-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    color: #5a441a;
+    padding: 10px 17px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Courier New',
+        Courier,
+        monospace;
+    display: inline-block;
+    font-size: 27px;
+    font-weight: 800;
+    cursor: pointer;
+    position: absolute;
+    right: 40%;
+    left: 40%;
+
+}
+
+#mediamediamedia {
+
+    background-image: url('https://i.pinimg.com/1200x/84/d0/fd/84d0fd2b6f4145c9ad3f1648ed0d8740.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+
+    h1 {
+        color: white;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    }
+
+    h2 {
+        color: white;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    }
+
+    h4 {
+        color: white;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+
+    }
+
+    #media>img {
+        width: 30%;
+        padding: 4px;
+        margin: auto;
+        align-items: center;
+        margin-left: 8px
+    }
+
+    .slide {
+        min-height: 100vh;
+        /* Use min-height instead of height */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        scroll-snap-align: start;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+}
+
+#love {
+    background-image: url('https://i.pinimg.com/1200x/34/78/2f/34782f8b8c07bbe4b8ae4842079afe37.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+
+    h1 {
+        color: white;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    h4 {
+        color: white
+    }
+
+    .slide {
+        min-height: 100vh;
+        /* Use min-height instead of height */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        scroll-snap-align: start;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    #play-love {
+        background-color: rgb(255, 255, 255);
+        border: 4;
+        border-color: rgb(255, 255, 255);
+        border-radius: 7px;
+        color: #5a441a;
+        padding: 10px 17px;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Courier New',
+            Courier,
+            monospace;
+        display: inline-block;
+        font-size: 27px;
+        font-weight: 800;
+        cursor: pointer;
+        position: flex;
+        right: 50%;
+        left: 50%;
+    }
+}

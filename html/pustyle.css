@@ -1,0 +1,72 @@
+* {
+    padding-left: 10px;
+
+}
+
+.pixelify-sans {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 225%;
+}
+
+.highlighted {
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.highlighted2 {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+
+#main {
+    color: aliceblue;
+}
+
+#background {
+    color: black;
+}
+
+#background2 {
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+#dream-state {
+    background-image: url('https://static.wixstatic.com/media/99373a_474cdec5bbd544399f6c98a8401510fb~mv2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#dream-job {
+    background-image: url('https://static.wixstatic.com/media/99373a_96d9c18daa1c4561aa472ce84c9597fc~mv2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#travel {
+    background-image: url('https://static.wixstatic.com/media/99373a_c3aa6a3c43f04c758da7888b2e3835ca~mv2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#you {
+    height: 40%;
+    position: absolute;
+    bottom: 20%;
+    /* Align to the bottom of the parent */
+    left: 50%;
+    /* Start from the horizontal center */
+    transform: translateX(-50%);
+    /* Shift left by half its own width */
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>love</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body id="love"></body>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+
+        <section class="slide">
+            <div id="audio-player-container">
+                <audio src="../html/Magdalena Bay - Love Is Everywhere (Official Audio).mp3" preload="metadata" loop>
+                    <h2></h2>
+                </audio>
+                <button id="play-love">start here</button>
+        </section>
+
+        <section class="slide">
+            <h2>love</h2>
+            <h4>love is everywhere... <br><br> it's love it's love it's love </h4>
+        </section>
+
+        <section class="slide">
+            <h2>cherish it </h2>
+            <h4>I've learned that love is what makes it all worth it. <br><br> When it seems hopeless and dark and
+                desolate, there is only one thing that can save you and it is love. <br><br> Your friends will save you
+                every time, love will save you every time, it will pull you from the depths, shake you by the shoulders
+                and show you the light that always exists. <br><br> Platonic love will save you, familial love will save
+                you, the love of strangers will save you. </h4>
+        </section>
+    </main>
+    <footer>
+
+        <a href="../html/personal-site.html"><button id="home-button">HOME</button></a>
+        <br><br><br><br>
+
+        <script>
+            const playButton = document.getElementById("play-love");
+            const audio = document.querySelector("audio");
+
+            playButton.addEventListener("click", () => {
+                audio.play();
+            });
+        </script>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Background Music</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body id="background-music">
+
+
+    <header>
+        <section class="slide">
+            <h1>music is a must</h1>
+        </section>
+    </header>
+    <main>
+        <section class="slide">
+            <div id="audio-player-container">
+                <audio src="tobenai-tsubasa.mp3" preload="metadata" loop>
+                    <h2></h2>
+                </audio>
+                <button id="play-icon">click here to begin</button>
+        </section>
+        <section class="slide">
+            <h2>it is always here... </h2>
+        </section>
+        <section class="slide">
+            <h2>sometimes it is a loud cacaphony of noise...</h2>
+        </section>
+        <section class="slide">
+            <h2>other times it is a low soothing hum...</h2>
+        </section>
+        <section class="slide">
+            <h2>view some of my favorite albums here...</h2>
+        </section>
+        <section class="slide">
+            <h2>and get a glimpse inside my mind.</h2>
+        </section>
+        </div> <br>
+
+        <div id="albums">
+            <img src="https://i1.sndcdn.com/artworks-000045486791-k92l6x-t1080x1080.jpg" alt="all about lily chou chou">
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/7e/The_New_Sound.png" alt="the new sound">
+            <img src="https://m.media-amazon.com/images/I/71PMScAWP+L._UF1000,1000_QL80_.jpg" alt="rumours">
+            <img src="https://media.pitchfork.com/photos/62791f55fd287b2bad2da2a7/master/pass/Black-Midi-Hellfire.jpg"
+                alt="hellfire">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/4b/Magdalena_Bay_-_Imaginal_Disk.png"
+                alt="imaginal disk">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfZZAG8KTSAW4Er612AE1ahakHtTTgMFw00w&s"
+                alt="blue rev">
+            <img src="https://m.media-amazon.com/images/I/81omZ4uFWOL._UF1000,1000_QL80_.jpg" alt="happy bivouac">
+            <img src="https://media.pitchfork.com/photos/6349c115b8ef72483b8e8de5/master/pass/Arctic-Monkeys-Suck-It-and-See.jpg"
+                alt="suck it and see">
+            <img src="https://m.media-amazon.com/images/I/A1MwaIeBpwL._UF1000,1000_QL80_.jpg" alt="in rainbows">
+            <img src="https://m.media-amazon.com/images/I/61UBeJ6FNPL._UXNaN_FMjpg_QL85_.jpg" alt="the new abnormal">
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/bb/PetSoundsCover.jpg" alt="pet sounds">
+            <img src="https://upload.wikimedia.org/wikipedia/en/d/db/Cameron_Winter_-_Heavy_Metal.webp"
+                alt="heavy metal">
+            <img src="https://i.scdn.co/image/ab67616d0000b2733174a9f789d91a20d3ef14aa" alt="seychelles">
+            <img src="https://archive.org/download/persona-4-soundtrack/cover.jpg" alt="p4 OST">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/43/Enhypen_-_Dark_Blood.jpg" alt="dark blood">
+        </div>
+        <br>
+
+    </main>
+    <footer>
+
+    </footer>
+    <br>
+    <a href="../html/personal-site.html"><button id="home-button">HOME</button></a>
+    <br><br>
+    <script>
+        const playButton = document.getElementById("play-icon");
+        const audio = document.querySelector("audio");
+
+        playButton.addEventListener("click", () => {
+            audio.play();
+        });
+    </script>
+</body>
+
+</html>
